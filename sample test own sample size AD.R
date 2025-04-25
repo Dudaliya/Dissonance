@@ -1,11 +1,13 @@
+"This runs Andersen Darling test - Select random samples 
+"This file is an unedited version of one of the R programs used in the dissonance study. 
 
  library(plyr)
  library(dbplyr)
  library(tidyverse)
  library(readxl)
  library(nortest)
- "rows 1,2,3 full sample (sw statistic, p value, significance)
- rows 4,5,6,7 full sample (size,sw statistic, p value, significance)
+ "rows 1,2,3 full sample (AD statistic, p value, significance)
+ rows 4,5,6,7 full sample (size,AD statistic, p value, significance)
  "
   mat1<-function(n1,n2,method){
    m1<-matrix(0,nrow=n2,ncol=7)
