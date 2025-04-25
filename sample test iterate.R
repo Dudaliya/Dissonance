@@ -1,4 +1,4 @@
-
+This runs Shapiro Wilk test - Select random samples from 1000 datapoints
  library(plyr)
  library(dbplyr)
  library(tidyverse)
