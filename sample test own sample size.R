@@ -1,4 +1,5 @@
-
+"This runs Shapiro Wilk Test of Normality - Select random samples 
+"This file is an unedited version of one of the R programs used in the dissonance study. 
  library(plyr)
  library(dbplyr)
  library(tidyverse)
