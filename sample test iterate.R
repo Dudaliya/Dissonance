@@ -1,4 +1,6 @@
-This runs Shapiro Wilk test - Select random samples from 1000 datapoints
+"This runs Shapiro Wilk test - Select random samples from 1000 datapoints
+"This file is an unedited version of one of the R programs used in the dissonance study. 
+"It extracts samples from a bigger sample of 1000 items and runs Shapiro Wilks test
  library(plyr)
  library(dbplyr)
  library(tidyverse)
